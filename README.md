@@ -1,2 +1,10 @@
-# story-generator
-An AI-powered story generator built with Streamlit and Hugging Face Transformers. Users can enter a topic, choose tone and story length, and instantly generate creative stories using the distilgpt2 model. Supports multiple outputs and saving stories as text files.
+User Input – The user enters a topic, selects a tone (e.g., Fantasy, Horror, Sci-fi), chooses story length, and number of stories.
+
+Prompt Creation – These inputs are combined into a prompt like:
+“Write a fantasy story about dragons. Once upon a time…”
+
+AI Model – The distilgpt2 model from Hugging Face generates story text based on the prompt.
+
+Output Display – Streamlit displays the generated story (or multiple stories) instantly in the browser.
+
+Optional Save – If chosen, the generated stories are saved into a .txt file for later use.
